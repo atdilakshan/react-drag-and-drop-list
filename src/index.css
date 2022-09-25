@@ -1,13 +1,60 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #f1f1f1;
+}
+
+header{
+  padding: 1% 0;
+  text-align: center;
+  border-bottom: 1px solid #888;
+}
+
+header h1{
+  margin: 1% 0;
+}
+
+header h3 a{
+  text-decoration: underline;
+  color: #198754;
+  font-size: bold;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 80vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.flexbox .board {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 13px -3px rgb(0 0 0 / 20%);
+}
+
+.flexbox .board h2 {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.flexbox .board .card {
+  width: 95%;
+  margin: 2% auto;
+  padding: 5% 3%;
+  cursor: pointer;
+  background-color: #198754;
+  color: #fff;
+  box-shadow: 0 4px 13px -3px rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
 }
