@@ -11,9 +11,9 @@ function Card(props) {
     }, 0);
   };
 
-//   const dragOver = e => {
-//     e.stopPropagation();
-//   }
+  const dragOver = (e) => {
+    e.stopPropagation();
+  };
 
   return (
     <div
@@ -21,7 +21,7 @@ function Card(props) {
       className={props.className}
       draggable={props.draggable}
       onDragStart={dragStart}
-    //   onDragOver={dragOver}
+      onDragOver={dragOver}
     >
       {props.children}
     </div>

@@ -9,7 +9,14 @@ function App() {
         <h1 class="title">Drag And Drop List</h1>
         <h3 class="profile">
           Created By
-          <a href="https://atdilakshan.github.io" target="_blank" rel="noreferrer"> AT Dilakshan</a>
+          <a
+            href="https://atdilakshan.github.io"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            AT Dilakshan
+          </a>
         </h3>
       </header>
       <main className="flexbox">

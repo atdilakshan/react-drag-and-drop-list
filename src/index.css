@@ -8,17 +8,17 @@ body {
   background-color: #f1f1f1;
 }
 
-header{
+header {
   padding: 1% 0;
   text-align: center;
   border-bottom: 1px solid #888;
 }
 
-header h1{
+header h1 {
   margin: 1% 0;
 }
 
-header h3 a{
+header h3 a {
   text-decoration: underline;
   color: #198754;
   font-size: bold;
